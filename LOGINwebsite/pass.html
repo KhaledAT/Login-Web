@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mot de passe</title>
+        <script src="app.js"></script>
+        <script src="https://kit.fontawesome.com/f518ccc5dc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div>
+
+            <h1>Sign up</h1>
+
+            </div>
+
+            <div class="textbox">
+
+                <i class="fas fa-user"></i>
+
+                <input id="username" type="text" placeholder="Username">
+
+            </div>
+
+            <p id="messageUsername"></p>
+
+            <div class="textbox">
+
+                <i class="fas fa-envelope"></i>
+
+                <input id="email1" type="email" placeholder="Email">
+
+            </div>
+
+            <p id="messageEmail1"></p>
+
+            <div class="textbox">
+
+                <i class="fas fa-envelope"></i>
+
+                <input id="email2" type="email"; placeholder="Confirm email">
+
+            </div>
+
+            <p id="messageEmail2"></p>
+
+            <div class="textbox">
+
+                <i class="fas fa-lock"></i>
+
+                <input id="mdp1" type="password" placeholder="Password">
+
+            </div>
+
+            <p id="message1"></p>
+
+            <div class="textbox">
+
+                <i class="fas fa-lock"></i>
+
+                <input id="mdp2" type="password" placeholder="Confirm password">
+
+            </div>
+
+            <p id="message2"></p>
+
+            <button id="button" class="btn" onclick="validationPassword(); validationEmail();">Submit</button>
+        
+        </div>
+    </body>
+
+</html>
